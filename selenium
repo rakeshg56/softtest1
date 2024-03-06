@@ -22,7 +22,7 @@ public class LmsDropdown {
         driver.findElement(By.id("loginbtn")).submit();
         Thread.sleep(3000);
         driver.findElement(By.className("usertext")).click();
-        Thread.sleep(3000);
+        Thread.sleep(3000);// ROCKY
 
     }
 }
