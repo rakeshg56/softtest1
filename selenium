@@ -17,7 +17,7 @@ public class LmsDropdown {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://lms.kluniversity.in/login/index.php");
-        driver.findElement(By.id("username")).sendKeys("2100031922");
+        driver.findElement(By.id("username")).sendKeys("210003992");
         driver.findElement(By.id("password")).sendKeys("Rakesh");
         driver.findElement(By.id("loginbtn")).submit();
         Thread.sleep(3000);
